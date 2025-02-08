@@ -86,6 +86,11 @@
     width: 80px;
   }
   
+  #background {
+    height: 725px
+  }
+  
+
   #hero-img {
     width: 100%;
   }
