@@ -38,6 +38,8 @@
     color: #396E94; 
     font-family: "Open Sans", Helvetica, sans-serif; 
     font-size: 2em;
+    margin-top: 10px;
+
   }
   
   h4 {
@@ -50,11 +52,17 @@
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
   
   .book:hover, .join:hover {
     background-color: #006494;  
     color: #FFFFFF;  
+  }
+
+  .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
   }
   
   .msg h2 {
@@ -80,6 +88,7 @@
     background-color: #003554;  
     color: #FFFFFF;
     padding: 25px 50px; 
+    margin-top: 200px;
   }
   
   footer a {
@@ -138,4 +147,12 @@
   #logo_link {
     padding-top: 5px;
 
-    } 
+  } 
+  
+  .card-img {
+      border: 10px solid #000000;
+  }
+
+  main section img {
+    box-sizing: border-box;
+  }
