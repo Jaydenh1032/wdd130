@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Lato:wght@400;700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,7 +34,8 @@
   }
   
   .home-title {
-    color: #396E94;  
+    color: #396E94; 
+    font-family: Lato, Helvetica, sans-serif; 
   }
   
   h4 {
@@ -51,11 +55,13 @@
   }
   
   .msg h2 {
-    color: #003554;  
+    color: #003554; 
+    font-family: Lato, Helvetica, sans-serif; 
   }
   
   .msg p {
-    color: #003554;  
+    color: #003554;
+    font-family: Lato, Helvetica, sans-serif;  
   }
   
   footer {
