@@ -10,6 +10,7 @@
   nav a {
     color: #003554;  
     text-decoration: none;
+    padding: 35px;
   }
   
   nav a:hover {
@@ -47,8 +48,8 @@
     background-color: #00A6FB;  
     color: #FFFFFF; 
     text-decoration: none;
-    font-size: 18px
- 
+    font-size: 18px;
+    padding: 15px 30px;
   }
   
   .book:hover, .join:hover {
@@ -65,17 +66,20 @@
     color: #003554;
     font-family: "Lato", Helvetica, sans-serif; 
     font-size: 8em; 
+    padding-bottom: 15px;
   }
   
   .msg {
     background-color: #6f7364;
     line-height: 1.5em;
+    padding: 35px;
   }
   
 
   footer {
     background-color: #003554;  
-    color: #FFFFFF; 
+    color: #FFFFFF;
+    padding: 25px 50px; 
   }
   
   footer a {
@@ -93,6 +97,10 @@
     color: #00A6FB; 
   }
   
+  footer .social img {
+    padding-top: 15px;
+  }
+
   .logo {
     width: 80px;
   }
@@ -123,3 +131,11 @@
     width: 100%;
   }
   
+  .icon {
+    padding-top: 10px;
+  }
+
+  #logo_link {
+    padding-top: 5px;
+
+    } 
