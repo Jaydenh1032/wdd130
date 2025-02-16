@@ -141,36 +141,44 @@
 
 
 
-
-
-
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+  row-gap: 0px;
+  grid-template-rows: auto auto auto; /* Stacks the colored boxes */
+  grid-template-columns: 600px 600px;
+  height: 400px
+
+
 }
 .red5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 600px; 
+  height: 30%; 
   background-color: red; 
 } 
 .green5 { 
   width: 100px; 
-  height: 100px; 
+  height: 50px; 
   background-color: green; 
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  float: left;
+  width: 600px; 
+  height: 50%; 
+  background-color: gold;
+
 
 } 
 .blue5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  width: 600px; 
+  height: 300px; 
+  background-color: blue;
+ 
 } 
+
+
+
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
