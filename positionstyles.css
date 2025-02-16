@@ -35,30 +35,43 @@
 } 
 
 
-/* Activity 2 styles */ 
 .content2 {
-  /* This is the parent of the activity 2 boxes. */
+  position: relative; 
+  width: 200px; 
+  height: 200px; 
 }
+
+.red2, .green2, .yellow2, .blue2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
 .red2 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
-} 
-.green2 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-} 
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+
+.green2 {
+  background-color: green;
+  top: 30px;  
+  left: 30px; 
+}
+
 .yellow2 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-} 
+  background-color: gold;
+  top: 60px;  
+  left: 60px; 
+}
+
 .blue2 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
+  background-color: blue;
+  top: 90px;  
+  left: 90px; 
+}
+
+
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
