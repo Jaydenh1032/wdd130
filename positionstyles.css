@@ -75,11 +75,10 @@
 
 /* Activity 3 styles */ 
 .content3 {
-  /* This is the parent of the activity 1 boxes. */
   display: grid;
   grid-template-columns: 300px 300px;
   justify-items: center;
-  column-gap: 20px; 
+  column-gap: 20px; /* Keep only column gap */
   row-gap: 0px;
 }
 .red3 {
@@ -107,32 +106,44 @@
 
 } 
 
-
+/* ---------------------------------------------------------------------------
 /* Activity 4 styles */ 
 .content4 {
-  /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  justify-items: center;
+  grid-template-rows: auto auto auto; /* Stacks the colored boxes */
+  column-gap: 0px;
+  row-gap: 0px;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 99%; 
   background-color: red; 
+  grid-row: 1/4; /* Spans all rows */
+
 } 
 .green4 {
-  width: 100px; 
+  width: 300px; 
   height: 100px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
+  width: 300px; 
   height: 100px; 
   background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
+  width: 300px; 
   height: 100px; 
   background-color: blue; 
 } 
+
+
+
+
+
+
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
