@@ -27,6 +27,7 @@
   nav {
     display: flex;
     justify-content: space-around;
+    box-shadow: 5px 5px 40px #000000;
   }
    
 
