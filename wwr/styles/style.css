@@ -11,8 +11,6 @@
     color: #eff3f5;  
     text-decoration: none;
     padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
-
   }
   
   nav a:hover {
@@ -111,8 +109,6 @@
     box-shadow: 5px 5px 10px #6f7364;
 
   }
-
- 
   
   .msg h2 {
     color: #003554; 
