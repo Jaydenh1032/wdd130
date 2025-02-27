@@ -11,6 +11,7 @@
     color: #eff3f5;  
     text-decoration: none;
     padding: 35px;
+  
   }
   
   nav a:hover {
@@ -27,7 +28,8 @@
   nav {
     display: flex;
     justify-content: space-around;
-    box-shadow: 5px 5px 40px #000000;
+    background-color: #0e597e;
+    
   }
    
 
