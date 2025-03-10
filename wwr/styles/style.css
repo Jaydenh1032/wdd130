@@ -137,7 +137,7 @@
   
 
   footer {
-    background-color: #003554;  
+    background-color: #0e597e;  
     color: #FFFFFF;
     padding: 25px 50px; 
     margin-top: 200px;
@@ -247,9 +247,69 @@
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+  
+}
+
+  /* this is the css for page 2: blog.html -->  */
+ 
+#blog-page .content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  #blog-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #blog-page .nav, #blog-page .footer {
+    background-color: #006494;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  #blog-page .nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px; /* Adjust height to match wireframe */
+  }
+  
+  #blog-page .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
   }
 
+  #blog-page .logo {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  #blog-page .text {
+    width: 50%;
 
+  }
+  #blog-page .image {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 45%;
+    max-width: 400px;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  #blog-page .footer {
+    margin-top: 40px;
+    padding: 15px;
+}
 
 
   /* DO NOT add any more CSS below this comment 
