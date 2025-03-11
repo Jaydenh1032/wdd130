@@ -251,7 +251,10 @@
 }
 
   /* this is the css for page 2: blog.html -->  */
- 
+  #blog-content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
   #blog-page {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -259,70 +262,70 @@
     background-color: #f9f9f9;
 
   }
-  #blog-page .nav, #blog-page .footer {
+  #blog-content .nav, #blog-content .footer {
     background-color: #006494;
     color: white;
     text-align: center;
     padding: 10px;
     font-weight: bold;
   }
-  #blog-page .nav {
+  #blog-content .nav {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       height: 60px; /* Adjust height to match wireframe */
   }
   
-  #blog-page .container {
+  #blog-content .container {
     width: 80%;
     max-width: 1200px;
     margin: 20px auto;
   }
 
-  #blog-page .logo {
+  #blog-content .logo {
     display: block;
     margin: 10px auto;
     text-align: center;
   }
 
-  #blog-page .image {
+  #blog-content .rafting-image{
     float: right;
     padding-right: 20px;
     margin-left: 15px;
     margin-bottom: 10px;
+    max-width: 750px;
   }
  
-  #blog-page .footer {
+  #blog-content .footer {
     margin-top: 40px;
     padding: 15px;
   }
-  #blog-page h2 {
+  #blog-content h2 {
     text-align: left;
     font-size: 36px;
     margin-top: 40px;
     padding-left: 10px; /* Added padding to keep text from touching edges */
     padding-right: 10px;
   }
-  #blog-page p {
+  #blog-content p {
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 24px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 50%;
   }
 
-  hr {
+  #blog-content hr {
     margin-top: 30px;
     }
 
-#blog-page .image2 {
+  #blog-content .image2 {
   float: left;
   padding-right: 20px;
   margin-left: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-  #blog-page .encounters h3 {
+  #blog-content .encounters h3 {
     font-size: 24px;  /* Increases the font size of the h3 headers */
     margin-top: 20px;
     margin-left: 0;
@@ -331,6 +334,35 @@
     justify-content: flex-start; 
   }
 
+
+  #blog-content .footer {
+    background-color: #0e597e;  
+    color: #FFFFFF;
+    padding: 25px 50px; 
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #blog-content .footer a {
+    color: #FFFFFF;  
+    text-decoration: none;
+  }
+
+  #blog-content .footer p {
+    font-size: 1.2em;
+    text-decoration: none;
+
+  }    
+         
+  #blog-content .footer a:hover {
+    color: #00A6FB; 
+  }
+  
+  #blog-content .footer  #blog-content .social img {
+    padding-top: 15px;
+  }
 
   /* DO NOT add any more CSS below this comment 
   --------------------------------------------- */
