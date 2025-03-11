@@ -252,18 +252,12 @@
 
   /* this is the css for page 2: blog.html -->  */
  
-#blog-page .content {
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-  }
   #blog-page {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+
   }
   #blog-page .nav, #blog-page .footer {
     background-color: #006494;
@@ -290,26 +284,52 @@
     margin: 10px auto;
     text-align: center;
   }
-  #blog-page .text {
-    width: 50%;
 
-  }
   #blog-page .image {
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 45%;
-    max-width: 400px;
-    background-color: #f4f4f4;
-    font-weight: bold;
+    float: right;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
-
+ 
   #blog-page .footer {
     margin-top: 40px;
     padding: 15px;
+  }
+  #blog-page h2 {
+    text-align: left;
+    font-size: 36px;
+    margin-top: 40px;
+    padding-left: 10px; /* Added padding to keep text from touching edges */
+    padding-right: 10px;
+  }
+  #blog-page p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+  }
+
+  hr {
+    margin-top: 30px;
+    }
+
+#blog-page .image2 {
+  float: left;
+  padding-right: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
 }
+  #blog-page .encounters h3 {
+    font-size: 24px;  /* Increases the font size of the h3 headers */
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 0;
+    justify-content: flex-start; 
+  }
 
 
   /* DO NOT add any more CSS below this comment 
