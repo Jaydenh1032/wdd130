@@ -153,3 +153,221 @@ body::before {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+  /* ----------------------------------------------- */ 
+  /*  Portfolio  */ 
+  /* ----------------------------------------------- */
+
+
+  #portfolio-content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  #portfolio-hero-img {
+    width: 50%;
+    height: 55%;
+    float: right;
+  }
+
+  #portfolio-hero-msg {
+    font-size: 2em;
+    border: 5px solid rgba(16, 132, 215, 1); /* Blue border with 50% transparency */
+    color: #00A6FB;
+    background-color: rgb(0, 0, 0, .95);
+    font-family: Georgia, 'Times New Roman', serif; /* Use Georgia for paragraphs */
+
+  }
+
+  .logo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .intro h1{
+    font-size: 4em; /* You can adjust this value to make it as large as you like */
+}
+
+
+  #portfolio-nav {
+    background-color: #29dbba;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+  }
+
+  #portfolio-nav a {
+    color: #eff3f5;  
+    text-decoration: none;
+    padding: 35px;
+  }
+  
+  #portfolio-nav a:hover {
+    color: #29dbba; 
+    background-image: url('../images/pg1img2.jpg');
+  }
+
+  #portfolio-header {
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+
+  #portfolio-footer {
+    background-color: #29dbba;  
+    color: #FFFFFF;
+    padding: 25px 50px; 
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clear: both;
+    font-size: 20px;
+
+  }
+
+  #portfolio-footer a {
+    color: #FFFFFF;  
+    text-decoration: none;
+    padding: 35px;
+
+  }
+
+  .intro p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+
+  .resume h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+
+  .skills {
+    justify-content: space-between; /* Optionally space the items out */
+}
+
+  #portfolio-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+
+
+#portfolio-myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00A6FB; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #portfolio-myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  #security img {
+    display: flex;
+    float: right;
+    width: 300px; /* Ensures it spans full width */
+    border: 5px solid #29dbba; /* Border styling */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+  .resume {
+    display: block;
+    height: auto;
+    float: right;
+    right: 5%; /* Adjust how far from the right edge */
+    max-width: 49%; /* Ensures it never goes past the right half */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures it's treated as a block element */
+    margin: 0 auto 150px auto;
+    border: 5px solid #00A6FB; /* Border styling */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+#resume {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.skills, .intro, .conclusion {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#statistics {
+    position: relative; /* Allows the contact box to overlay */
+    display: flex;
+    justify-content: center; /* Centers the image */
+    align-items: center;
+    margin: 20px auto; /* Centers the section */
+    width: 48%;
+    float: left;
+}
+
+.pg2img2 {
+    width: 100%; /* Increase width as needed (e.g., 80% of the container) */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures proper centering */
+    margin: 0 auto; /* Centers horizontally */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow */
+}
+
+#contact-box {
+    position: absolute; /* Places it on top of the image */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers it */
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white */
+    padding: 20px;
+    text-align: center;
+    width: 50%; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for a lifted effect */
+    z-index: 10; /* Ensures it's above the image */
+}
+
+#contact-box h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #00A6FB; /* Adjust for branding */
+}
+
+#contact-box p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+#contact-box a {
+    color: #00A6FB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact-box a:hover {
+    text-decoration: underline;
+}

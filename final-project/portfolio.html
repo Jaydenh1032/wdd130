@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/final-project.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,24 +37,47 @@
         <div id="resume"></div> 
         <img class="resume" src="images/resume.png" alt="My resume">
             <h2>Soft Skills</h2>
-                <p>Beyond technical expertise, I also bring valuable interpersonal and problem-solving skills, including:</p>
+                <p1>Beyond technical expertise, I also bring valuable interpersonal and problem-solving skills, including:</p1>
                 <p>Attention to Detail – Ensuring every project meets the highest standards of quality.</p>
                 <p>Critical Thinking – Analyzing problems and finding efficient, secure, and scalable solutions.</p>
                 <p>Collaboration – Effectively working with teams and clients to achieve project goals.</p>
                 <p>Adaptability – Constantly learning and improving to stay ahead in the fast-evolving tech world.</p>
          </section>
-            <div id="statistics"> 
-                <img class="pg2img2" src="images/pg2img2.jpg" alt="analitical professionalism">
-            </div>
-         <section class="conclusion">
-                <p>If you are looking for someone who is dedicated, hardworking, and eager to contribute, I would love to connect! I bring a mix of technical expertise and problem-solving skills that can add value to any team.</p>
-            <h2> Contact me:</h2>
-                <p>Email - jayden.hocker@icloud.com</p>
-                <p>LinkedIn - <a href="https://www.linkedin.com/in/jayden-hocker/">https://www.linkedin.com/in/jayden-hocker/</a></p>
-                <p>Phone - 208-292-7765</p>
+         <div id="statistics"> 
+          <img class="pg2img2" src="images/pg2img2.jpg" alt="analytical professionalism">
+          
+          <div id="contact-box">
+              <h2>Contact Me</h2>
+              <p>Email - jayden.hocker@icloud.com</p>
+              <p>LinkedIn - <a href="https://www.linkedin.com/in/jayden-hocker/">Jayden Hocker</a></p>
+              <p>Phone - 208-292-7765</p>
+          </div>
+      </div>
          </section>
       </section>
     </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
     <footer>
       <p>MySite &copy; 2025 - Jayden Hocker</p>
       <p><a href="index.html">MySite</a></p>
